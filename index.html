@@ -8,44 +8,95 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Bootstrap flexbox -->
     <link rel="stylesheet" href="assets/css/bootstrap-flex.min.css">
-    <!-- font -->
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets\fontawesome\css\fontawesome.min.css">
+      <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
       <!-- css-->
-      <link rel="stylesheet" href="assets/css/style.css">
       <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Perla Holguin</title>
   </head>
   <body>
 
-    <div class="wrapper">
+    <section id="intro">
+      <div class="container">
+        <div class="navbar-header row">
+          <button type="button" class="navbar-toggle pull-xs-right hidden-sm-up"  data-toggle="collapse" data-target="#collapseExample">
+            &#9776;
+          </button>
+        </div>
+        <div class="row">
+            <nav class=" navbar-custom " role="navigation">
+              <div id="collapseExample" class="navbar-toggleable-xs navbar  collapse"  >
+                  <ul class="nav justify-content-center nav-fill ">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#ABOUT">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#PROFILE">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#PORTFOLIO">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#WORKFLOW">Work flow</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#CONTACT">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
 
-    <section id="intro"  >
-      <nav class=" navbar-custom " role="navigation">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-           <ul class="nav justify-content-center ">
-            <li class="nav-item">
-              <a class="nav-link active" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="PROFILE">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="PORTFOLIO">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="WORKFLOW">Work flow</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="CONTACT">Contact</a>
-            </li>
-          </ul>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 title">
+              <h1> <strong> Hi, I'M PERLA HOLGUIN</strong></h1>
+              <h6 id="margin-text-top"><span>UX & UI DESIGNER | WEB DEVELOPER</span><h6>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Menu-->
+<!--   <section id="intro">
+      <div class="container">
+        <div class="row">
+        <nav class=" navbar-custom " role="navigation">
+          <div class="navbar-header row">
+            <button type="button" class="navbar-toggle pull-xs-right hidden-sm-up"  data-toggle="collapse" data-target="#collapseExample">
+              &#9776;
+            </button>
           </div>
-        </nav>
-			<div class="container">
+      <div class="row">
+        <div id="collapseExample" class="navbar-toggleable-xs navbar  collapse"  >
+            <ul class="nav justify-content-center ">
+              <li class="nav-item">
+                <a class="nav-link active" href="#ABOUT">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#PROFILE">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#PORTFOLIO">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#WORKFLOW">Work flow</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#CONTACT">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
+      </nav>
+      </div>
+
+      <div class="container">
       	<div class="row">
   					<div class="col-md-12">
   						<div class="title">
@@ -55,9 +106,11 @@
   					</div>
   				</div><!-- .row -->
   			</div><!-- .container -->
+      </div>
+    </div>
   		</section>
 
-      <section id="header1">
+      <section  id="ABOUT" class="header1">
 			 		<div class="container">
   					<div class="row">
   						<div class="col-sm-12 " data-aos="fade-down">
@@ -110,7 +163,7 @@
 
     </section>
 
-    <section id="header2">
+    <section id="PROFILE" class="header2">
       <div class="container">
         <div class="row">
           <div class="col-sm-12" data-aos="fade-down">
@@ -174,7 +227,7 @@
     </section>
 
 
-    <section id="header1" >
+    <section id="PORTFOLIO" class="header1" >
       <div class="container" data-aos="fade-down">
         <h2> <strong>Portfolio</strong></h2>
       </div>
@@ -185,7 +238,7 @@
 
     </section>
 
-    <section id="header2">
+    <section  id="WORKFLOW" class="header2">
       <div class="container " data-aos="fade-down">
         <h2><strong>Work flow</strong> </h2>
       </div>
@@ -266,7 +319,7 @@
       </div>
     </section>
 
-    <section id="header1">
+    <section id="CONTACT" class="header1">
       <div class="container "data-aos="fade-down">
         <h2> <strong>Contact</strong></h2>
       </div>
@@ -292,7 +345,7 @@
       </div>
     </section>
 
-    <section id="header1">
+    <section class="header1">
       <div class="container text-center">
         <h4 class="about-text">© 2018 Perla Holguin M. All Rights Reserved.</h4>
       </div>
@@ -300,10 +353,11 @@
 
 
   </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6SpejU02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Background slider -->
+
+  <<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+
 
     <script src="assets\js\jquery-3.3.1.min.js"></script>
   	<script src="assets\js\jquery.backstretch.min.js"></script>

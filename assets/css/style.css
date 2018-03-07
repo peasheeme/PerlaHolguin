@@ -1,7 +1,5 @@
 body {
   font-family: 'Cabin', sans-serif;
-
-  /*background: url(../images/P1.jpg) no-repeat center fixed;*/
 }
 
 img {
@@ -49,17 +47,16 @@ h6 {
   text-align: center;
 }
 
-
 /* ---------------------------------------------- /*
  * General
 /* ---------------------------------------------- */
 
-#header1 {
+.header1 {
   background-color: #e6e6e6;
   padding: 70px 0 ;
   text-align: center;
 }
-#header2 {
+.header2 {
   background-color: #ececec;
   padding: 70px 0 ;
   text-align: center;
